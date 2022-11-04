@@ -12,6 +12,6 @@ COPY . .
 
 RUN yarn build
 
-EXPOSE 4173
+EXPOSE 80
 
 CMD ["yarn", "preview", "--host"]
